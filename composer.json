@@ -10,12 +10,23 @@
             "name": "Michel Salib",
             "email": "michelsalib@hotmail.com",
             "homepage": "http://michelsalib.com"
+        },
+        {
+            "name": "Oguzhan Uysal",
+            "email": "development@oguzhanuysal.eu"
         }
     ],
     "require": {
-        "symfony/framework-bundle": ">=2.0,<3.0",
+        "symfony/config": "^2.8",
+        "symfony/http-foundation": "^2.8",
+        "symfony/dependency-injection": "^2.8",
+        "symfony/http-kernel": "^2.8",
+        "symfony/command": "^2.8",
         "chrisboulton/php-resque": "dev-master",
         "chrisboulton/php-resque-scheduler": "dev-master"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.1"
     },
     "autoload": {
         "psr-0": { "BCC\\ResqueBundle": "" }
